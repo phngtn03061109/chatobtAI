@@ -22,6 +22,12 @@ dependencies {
 
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:31.1-jre'
+    implementation 'com.google.cloud:google-cloud-dialogflow:1.10.0'
+    implementation 'com.google.api.client:google-api-client:1.30.10'
+    implementation 'com.google.api.client:google-api-client-jackson2:1.30.10'
+    implementation 'com.google.api.client:google-api-client-jetty:1.30.10'
+    implementation 'com.google.api.client:google-api-client-protobuf:1.30.10'
+    implementation 'com.google.api.client:google-api-client-xml:1.30.10'
 }
 
 application {
